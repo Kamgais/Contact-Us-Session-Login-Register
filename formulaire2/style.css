@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+ 
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color:rgb(69, 148, 221);
+    margin: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+ 
+}
+
+.login{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.bravo{
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  
+}
+
+.input1, .input2{
+    margin-top: 10px;
+    position: relative;
+
+
+    
+}
+
+.name, .passwort{
+    height: 35px;
+    width: 200px;
+    padding-left: 10px;
+    text-align: center;
+
+
+}
+
+.lastlogin{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 19px;
+
+
+}
+
+form{
+    position: relative;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 15px;
+   
+}
+
+button{
+    height: 35px;
+    width: 220px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(241, 105, 56);
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+h2{
+    color: #fff;
+}
+    
+    
+
+
+
